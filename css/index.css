@@ -1,0 +1,35 @@
+html
+{
+	background-image: url("../img/background.png");
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 100%;
+  	overflow: hidden;
+  	margin: 0 auto;
+}
+
+#trailer, #splashArt, #storePageContainer
+{
+	margin:auto;
+    display:block;
+}
+
+#trailer
+{
+	margin-top: 5%;
+}
+
+#splashArt
+{
+	margin-top: -50px;
+}
+
+#storePageContainer
+{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	column-gap: 8rem;
+}
