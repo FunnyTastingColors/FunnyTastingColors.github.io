@@ -7,7 +7,7 @@ html
   	-o-background-size: cover;
   	background-size: cover;
   	height: 100%;
-  	overflow: hidden;
+  	overflow: visible;
   	margin: 0 auto;
 }
 
