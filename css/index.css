@@ -128,7 +128,8 @@ iframe
 	html
 	{
 		overflow: scroll;
-		height: auto;
+		height: fit-content;
+		width: fit-content;
 	}
 	
 	#trailer
