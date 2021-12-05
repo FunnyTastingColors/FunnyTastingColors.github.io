@@ -1,6 +1,7 @@
 html
 {
 	background-image: url("../img/background.png");
+	background-position: center;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -16,9 +17,57 @@ html
     display:block;
 }
 
+body
+{
+	width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 40px auto 5px;
+    justify-content: center;
+}
+
 #trailer
 {
-	margin-top: 5%;
+	position: absolute;
+    left: 0;
+   	right: 0;
+	top: 0;
+ 	bottom: 8%;
+   	margin: auto;
+   	width: 90%;
+   	max-width: 800px;
+ 	overflow: auto;
+}
+
+iframe
+{
+	display: block;
+    margin: 45px auto;
+    max-height: 60vw;
+    max-width: calc(100% - 20px);
+    border:none;
+}
+
+.text
+{
+	height: auto;
+	width: 80%
+}
+
+#header
+{
+	top: 2%;
+	max-width: 600px;
+	position: absolute;
+}
+
+#subheader
+{
+	width: 60%;
+	bottom: 12%;
+	max-width: 400px;
+	position: absolute;
 }
 
 #splashArt
@@ -31,5 +80,39 @@ html
 	display: flex;
   	align-items: center;
   	justify-content: center;
-  	column-gap: 8rem;
+  	column-gap: 3vw;
+  	position: absolute;
+  	bottom: 2%;
+  	margin-left: 2vw;
+  	margin-right: 2vw;
+}
+
+#storePageContainer img
+{
+	width: 100%;
+	height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+	#trailer
+	{
+		position:relative;
+		max-height: 58vw;
+	}
+	
+	#header
+	{
+		position:absolute;
+		top: 60%
+	}
+	
+	#subheader
+	{
+		top: 70%;
+	}
+	
+	#storePageContainer
+	{
+		bottom: 3%;
+	}
 }
