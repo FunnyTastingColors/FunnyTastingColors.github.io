@@ -118,7 +118,7 @@ iframe
 }
 
 /* target just landscape mobile phones */
-@media screen and (orientation: landscape) and (hover: none)
+@media screen and (orientation: landscape)
 {
 	html
 	{
