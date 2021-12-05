@@ -117,7 +117,37 @@ iframe
 	}
 }
 
-@media screen and (max-width: 900px) and (orientation: landscape) and (hover: none){
+/* target just landscape mobile phones */
+@media screen and (orientation: landscape) and (hover: none)
+{
+	html
+	{
+		overflow: scroll;
+		height: auto;
+	}
+	
+	#trailer
+	{
+		position: relative;
+	}
+	
+	#header
+	{
+		position: relative;
+	}
+	
+	#subheader
+	{
+		position: relative;
+	}
+	
+	#storePageContainer
+	{
+		position: relative;
+	}
+}
+
+/*@media screen and (max-width: 900px) and (orientation: landscape) and (hover: none){
   	html 
   	{
     	transform: rotate(-90deg);
@@ -139,4 +169,4 @@ iframe
 	{
 		column-gap: 3vh;
 	}
-}
+}*/
